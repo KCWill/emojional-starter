@@ -1,9 +1,9 @@
 
 var happyMessage = ['Woot woot!', "You're awesome!", 'Your smile just cheered me up!'];
 
-var sillyMessage = ['Yaaaaaaaaas!']
+var sillyMessage = ['Yaaaaaaaaas!', 'Sounds...good?', 'Interesting Response'];
 
-var sadMessage = ['Keep your head up!']
+var sadMessage = ['Keep your head up!', 'What can I do?','Do you want to talk?'];
 
 function randomizer(message) {
   var randomizer = Math.random() * 3;
@@ -16,4 +16,13 @@ function randomizer(message) {
 
 function happyClick() {
   document.querySelector('.message').innerHTML = randomizer(happyMessage);
+
+}
+
+function sillyClick() {
+  document.querySelector('.message').innerHTML = randomizer(sillyMessage);
+}
+
+function sadClick() {
+  document.querySelector('.message').innerHTML = randomizer(sadMessage);
 }
