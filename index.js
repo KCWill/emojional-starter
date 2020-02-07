@@ -1,7 +1,7 @@
 
 var happyMessage = ['Woot woot!', "You're awesome!", 'Your smile just cheered me up!'];
 
-var sillyMessage = 'Yaaaaaaaaas!'
+var sillyMessage = ['Yaaaaaaaaas!']
 
 var sadMessage = 'Keep your head up!'
 
@@ -22,3 +22,6 @@ function happyClick() {
 
 
 }
+
+
+boop
